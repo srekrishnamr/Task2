@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/copyStyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <sticky-header class="header-wrapper color-background-1 gradient">
+        <header class="header header--top-center page-width header--has-menu"
+            style="background-color: transparent; box-shadow: unset; color: rgb(255, 255, 255);"><header-drawer
+                data-breakpoint="tablet">
+                <details id="Details-menu-drawer-container" class="menu-drawer-container">
+                    <summary class="header__icon header__icon--menu header__icon--summary link focus-inset"
+                        aria-label="Menu" role="button" aria-expanded="false" aria-controls="menu-drawer">
+                        <span>
+                        </span>
+                    </summary>
+                    <div id="menu-drawer" class="menu-drawer motion-reduce" tabindex="-1">
+                        <div class="menu-drawer__inner-container">
+                            <div class="menu-drawer__navigation-container">
+                                <nav class="menu-drawer__navigation">
+                                    <ul class="menu-drawer__menu list-menu" role="list">
+                                        <li><a href="show Now"
+                                                class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
+                                                Shop Now
+                                            </a></li>
+                                        <li><a href="/pages/talk-to-our-experts"
+                                                class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
+                                                Health Experts
+                                            </a></li>
+                                        <li>
+                                            <details id="Details-menu-drawer-menu-item-3">
+                                                <summary
+                                                    class="menu-drawer__menu-item list-menu__item link link--text focus-inset"
+                                                    role="button" aria-expanded="false" aria-controls="link-Naked Way">
+                                                    Naked Way
+                                                </summary>
+                                                <div id="link-Naked Way" class="menu-drawer__submenu motion-reduce"
+                                                    tabindex="-1">
+                                                    <div class="menu-drawer__inner-submenu">
+                                                        <button
+                                                            class="menu-drawer__close-button link link--text focus-inset"
+                                                            aria-expanded="true">
+
+
+                                                            Naked Way
+                                                        </button>
+                                                        <ul class="menu-drawer__menu list-menu" role="list"
+                                                            tabindex="-1">
+                                                            <li><a href="/pages/naked-philosophy"
+                                                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                                                    Naked Philosophy
+                                                                </a></li>
+                                                            <li><a href="/pages/naked-research"
+                                                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                                                    Naked Research
+                                                                </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details id="Details-menu-drawer-menu-item-4">
+                                                <summary
+                                                    class="menu-drawer__menu-item list-menu__item link link--text focus-inset"
+                                                    role="button" aria-expanded="false"
+                                                    aria-controls="link-Näck Journals">
+                                                    Näck Journals
+
+                                                </summary>
+                                                <div id="link-Näck Journals" class="menu-drawer__submenu motion-reduce"
+                                                    tabindex="-1">
+                                                    <div class="menu-drawer__inner-submenu">
+                                                        <button
+                                                            class="menu-drawer__close-button link link--text focus-inset"
+                                                            aria-expanded="true">
+                                                            Näck Journals
+                                                        </button>
+                                                        <ul class="menu-drawer__menu list-menu" role="list"
+                                                            tabindex="-1">
+                                                            <li><a href="https://nack.life/blogs/news/tagged/community"
+                                                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                                                    Community
+                                                                </a></li>
+                                                            <li><a href="https://nack.life/blogs/news/tagged/mental-wellbeing"
+                                                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                                                    Mental Wellbeing
+                                                                </a></li>
+                                                            <li><a href="https://nack.life/blogs/news/tagged/recipes"
+                                                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                                                    Recipes
+                                                                </a></li>
+                                                            <li><a href="https://nack.life/blogs/news/tagged/health-and-fitness"
+                                                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                                                    Health and Fitness
+                                                                </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </details>
+                                        </li>
+                                        <li><a href="/pages/about-us"
+                                                class="menu-drawer__menu-item list-menu__item link link--text focus-inset">
+                                                About Us
+                                            </a></li>
+                                    </ul>
+                                </nav>
+                                <div class="menu-drawer__utility-links">
+                                    <a href="/account/login" class="menu-drawer__account link focus-inset h5">
+                                        Log in
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+            </header-drawer><details-modal class="header__search">
+                <details>
+                    <summary
+                        class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
+                        aria-haspopup="dialog" aria-label="Search" role="button">
+                        <span>
+                            <svg class="modal__toggle-open icon icon-search fillmy" aria-hidden="true" focusable="false"
+                                role="presentation">
+                                <use href="#icon-search">
+                                </use>
+                            </svg>
+                            <svg class="modal__toggle-close icon icon-close fillmy" aria-hidden="true" focusable="false"
+                                role="presentation">
+                                <use href="#icon-close">
+                                </use>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="search-modal modal__content" role="dialog" aria-modal="true" aria-label="Search">
+                        <div class="modal-overlay"></div>
+                        <div class="search-modal__content" tabindex="-1"><predictive-search class="search-modal__form"
+                                data-loading-text="Loading...">
+                                <form action="/search" method="get" role="search" class="search search-modal__form">
+                                    <div class="field">
+                                        <input class="search__input field__input" id="Search-In-Modal-1" type="search"
+                                            name="q" value="" placeholder="Search" role="combobox" aria-expanded="false"
+                                            aria-owns="predictive-search-results-list"
+                                            aria-controls="predictive-search-results-list" aria-haspopup="listbox"
+                                            aria-autocomplete="list" autocorrect="off" autocomplete="off"
+                                            autocapitalize="off" spellcheck="false">
+                                        <label class="field__label" for="Search-In-Modal-1">Search</label>
+                                        <input type="hidden" name="options[prefix]" value="last">
+                                        <button class="search__button field__button" aria-label="Search">
+                                            <svg class="icon icon-search fillmy" aria-hidden="true" focusable="false"
+                                                role="presentation">
+                                                <use href="#icon-search">
+                                                </use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="predictive-search predictive-search--header" tabindex="-1"
+                                        data-predictive-search="">
+
+                                    </div>
+
+                                    <span class="predictive-search-status visually-hidden" role="status"
+                                        aria-hidden="true"></span>
+                                </form>
+                            </predictive-search><button type="button"
+                                class="modal__close-button link link--text focus-inset" aria-label="Close">
+                                <svg class="icon icon-close fillmy" aria-hidden="true" focusable="false"
+                                    role="presentation">
+                                    <use href="#icon-close">
+                                    </use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </details>
+            </details-modal>
+            <h2 class="header__heading header__heading_link"><a href="/"
+                    class="header__heading-link link link--text focus-inset ">
+                </a>
+            </h2>
+            <nav class="header__inline-menu">
+                <ul class="list-menu list-menu--inline" role="list">
+                    <li><a href="/collections/nack-shop"
+                            class="header__menu-item header__menu-item list-menu__item link link--text focus-inset">
+                            <span style="color: rgb(255, 255, 255);">Shop Now</span>
+                        </a></li>
+                    <li><a href="/pages/talk-to-our-experts"
+                            class="header__menu-item header__menu-item list-menu__item link link--text focus-inset">
+                            <span style="color: rgb(255, 255, 255);">Health Experts</span>
+                        </a></li>
+                    <li><details-disclosure>
+                            <details id="Details-HeaderMenu-3">
+                                <summary class="header__menu-item list-menu__item link focus-inset" role="button"
+                                    aria-expanded="false" aria-controls="HeaderMenu-MenuList-3">
+                                    <span style="color: rgb(255, 255, 255);">Naked Way</span>
+
+
+                                </summary>
+                                <ul id="HeaderMenu-MenuList-3"
+                                    class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce"
+                                    role="list" tabindex="-1">
+                                    <li><a href="/pages/naked-philosophy"
+                                            class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                                            Naked Philosophy
+                                        </a></li>
+                                    <li><a href="/pages/naked-research"
+                                            class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                                            Naked Research
+                                        </a></li>
+                                </ul>
+                            </details>
+                        </details-disclosure></li>
+                    <li><details-disclosure>
+                            <details id="Details-HeaderMenu-4">
+                                <summary class="header__menu-item list-menu__item link focus-inset" role="button"
+                                    aria-expanded="false" aria-controls="HeaderMenu-MenuList-4">
+                                    <span style="color: rgb(255, 255, 255);">Näck Journals</span>
+
+
+                                </summary>
+                                <ul id="HeaderMenu-MenuList-4"
+                                    class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce"
+                                    role="list" tabindex="-1">
+                                    <li><a href="https://nack.life/blogs/news/tagged/community"
+                                            class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                                            Community
+                                        </a></li>
+                                    <li><a href="https://nack.life/blogs/news/tagged/mental-wellbeing"
+                                            class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                                            Mental Wellbeing
+                                        </a></li>
+                                    <li><a href="https://nack.life/blogs/news/tagged/recipes"
+                                            class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                                            Recipes
+                                        </a></li>
+                                    <li><a href="https://nack.life/blogs/news/tagged/health-and-fitness"
+                                            class="header__menu-item list-menu__item link link--text focus-inset caption-large">
+                                            Health and Fitness
+                                        </a></li>
+                                </ul>
+                            </details>
+                        </details-disclosure></li>
+                    <li><a href="/pages/about-us"
+                            class="header__menu-item header__menu-item list-menu__item link link--text focus-inset">
+                            <span style="color: rgb(255, 255, 255);">About Us</span>
+                        </a></li>
+                </ul>
+            </nav>
+            <div class="header__icons">
+                <details-modal class="header__search">
+                    <details>
+                        <summary
+                            class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
+                            aria-haspopup="dialog" aria-label="Search" role="button">
+                            <span>
+                                <svg class="modal__toggle-open icon icon-search fillmy" aria-hidden="true"
+                                    focusable="false" role="presentation">
+                                    <use href="#icon-search">
+                                    </use>
+                                </svg>
+                                <svg class="modal__toggle-close icon icon-close fillmy" aria-hidden="true"
+                                    focusable="false" role="presentation">
+                                    <use href="#icon-close">
+                                    </use>
+                                </svg>
+                            </span>
+                        </summary>
+                        <div class="search-modal modal__content" role="dialog" aria-modal="true" aria-label="Search">
+                            <div class="modal-overlay"></div>
+                            <div class="search-modal__content" tabindex="-1"><predictive-search
+                                    class="search-modal__form" data-loading-text="Loading...">
+                                    <form action="/search" method="get" role="search" class="search search-modal__form">
+                                        <div class="field">
+                                            <input class="search__input field__input" id="Search-In-Modal" type="search"
+                                                name="q" value="" placeholder="Search" role="combobox"
+                                                aria-expanded="false" aria-owns="predictive-search-results-list"
+                                                aria-controls="predictive-search-results-list" aria-haspopup="listbox"
+                                                aria-autocomplete="list" autocorrect="off" autocomplete="off"
+                                                autocapitalize="off" spellcheck="false">
+                                            <label class="field__label" for="Search-In-Modal">Search</label>
+                                            <input type="hidden" name="options[prefix]" value="last">
+                                            <button class="search__button field__button" aria-label="Search">
+                                                <svg class="icon icon-search fillmy" aria-hidden="true"
+                                                    focusable="false" role="presentation">
+                                                    <use href="#icon-search">
+                                                    </use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="predictive-search predictive-search--header" tabindex="-1"
+                                            data-predictive-search="" </div>
+
+                                            <span class="predictive-search-status visually-hidden" role="status"
+                                                aria-hidden="true"></span>
+                                    </form>
+                                </predictive-search><button type="button"
+                                    class="search-modal__close-button modal__close-button link link--text focus-inset"
+                                    aria-label="Close">
+                                    <svg class="icon icon-close fillmy" aria-hidden="true" focusable="false"
+                                        role="presentation">
+                                        <use href="#icon-close">
+                                        </use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </details>
+                </details-modal><a href="/account/login"
+                    class="header__icon header__icon--account link focus-inset small-hide">
+
+
+                    <span class="visually-hidden">Log in</span>
+                </a><a href="/cart" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+                    <span class="visually-hidden">Cart</span></a>
+            </div>
+        </header>
+    </sticky-header>
+    <section id="shopify-section-template--16705227751660__40e36642-1597-4a48-a1c6-b9a2404e2260"
+        class="shopify-section section">
+        <section class="nack-section-featured">
+            <div class="nack-section-featured-content">
+                <div class="nack-section-featured-header">
+                    <h6 class="pre-heading">HONEST. CLEAN. NATURAL.</h6>
+                    <h2 class="section-title">Choose Your Favourite</h2>
+                </div>
+                <div class="carousel flickity-enabled is-draggable"
+                    data-flickity="{ &quot;cellAlign&quot;: &quot;center&quot;, &quot;contain&quot;: true, &quot;prevNextButtons&quot;: true, &quot;pageDots&quot;: false, &quot;wrapAround&quot;: true, &quot;autoPlay&quot;: true, &quot;pauseAutoPlayOnHover&quot;:true  }"
+                    style="height: 400px;" tabindex="0">
+                    <div class="flickity-viewport" style="height: 400px; touch-action: pan-y;">
+                        <div class="flickity-slider" style="left: 0px; transform: translateX(-241.96%);">
+                            <div class="carousel-cell" style="position: absolute; left: 0px; transform: translateX(0%);"
+                                aria-hidden="true">
+                                <a href="/products/whey-protein-chocolate-with-pink-himalayan-salt"
+                                    class="carousel-cell-link">
+                                    <div class="carousel-cell-content">
+                                        <div class="product__image">
+                                            <img src="/Media/choose_your_fav_410x.webp" alt="whey protein">
+                                        </div>
+                                        <div class="product__title">
+                                            <h6>whey protein</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell"
+                                style="position: absolute; left: 0px; transform: translateX(104.99%);"
+                                aria-hidden="true">
+                                <a href="/products/plant-protein-powder-500g-unflavoured" class="carousel-cell-link">
+                                    <div class="carousel-cell-content">
+                                        <div class="product__image">
+                                            <img src="/Media/vegan-plant-protein-powder-nack-india-min_750x_1000x_9fe870d1-dcb5-439f-a696-2219a36f7fca_410x.webp"
+                                                alt="plant protein">
+                                        </div>
+                                        <div class="product__title">
+                                            <h6>plant protein</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell"
+                                style="position: absolute; left: 0px; transform: translateX(209.99%);"
+                                aria-hidden="true">
+                                <a href="/products/natural-astaxanthin-4-mg" class="carousel-cell-link">
+                                    <div class="carousel-cell-content">
+                                        <div class="product__image">
+                                            <img src="/Media/nack-astaxanthin-antioxidant-immunity-boost-1-min_410x.webp"
+                                                alt="immunity boost">
+                                        </div>
+                                        <div class="product__title">
+                                            <h6>immunity boost</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell is-selected"
+                                style="position: absolute; left: 0px; transform: translateX(314.98%);">
+                                <a href="/products/the-strong-kit" class="carousel-cell-link">
+                                    <div class="carousel-cell-content">
+                                        <div class="product__image">
+                                            <img src="/Media/tsk_home_page_1_410x.webp" alt="strong kit">
+                                        </div>
+                                        <div class="product__title">
+                                            <h6>strong kit</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell"
+                                style="position: absolute; left: 0px; transform: translateX(419.97%);"
+                                aria-hidden="true">
+                                <a href="https://nack.life/products/eaa-electrolytes-black-grape"
+                                    class="carousel-cell-link">
+                                    <div class="carousel-cell-content">
+                                        <div class="product__image">
+                                            <img src="/Media/choose_your_fav_9c6ba076-3ac3-4bb3-ab24-e03329ecbf64_410x.webp"
+                                                alt="EAA+Electrolytes">
+                                        </div>
+                                        <div class="product__title">
+                                            <h6>EAA+Electrolytes</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div><button class="flickity-button flickity-prev-next-button previous" type="button"
+                        aria-label="Previous"><svg class="flickity-button-icon" viewBox="0 0 100 100">
+                            <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path>
+                        </svg></button><button class="flickity-button flickity-prev-next-button next" type="button"
+                        aria-label="Next"><svg class="flickity-button-icon" viewBox="0 0 100 100">
+                        </svg></button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="section-template" class="shopify-section spaced-section">
+        <section class="section2">
+            <div class="container">
+                <div class="row yCenter xCenter">
+                    <div class="col-md-5 col-sm-6 col-12 promotext2 orderSecond">
+                        <h6>EAA+Electrolytes</h6>
+                        <h2>Essential fuel with hydrating electrolytes</h2>
+                        <p class="dd">A potent blend of EAAs with 3.5g leucine per serving, and highly bioavailable
+                            electrolytes in pocket-sized sachets - convenient and effective fuel to maximise your
+                            performance and hydration.</p>
+                        <div class="btn btnnack" onclick="window.location='/products/eaa-electrolytes-black-grape';">
+                            <a class="btnMain btnMobileCenter" href="/products/eaa-electrolytes-black-grape">Read
+                                more</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-md-6 col-sm-6 col-12">
+                        <img src="/Media/EAA_Home_page_500x.webp" alt="featured_image" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="shopify-section-template--16705227751660__a38307eb-25e3-4077-8373-fe1bcb507ada"
+        class="shopify-section spaced-section">
+        <section class="section2">
+            <div class="container">
+                <div class="row yCenter xCenter">
+                    <div class="col-xl-7 col-md-6 col-sm-6 col-12">
+                        <img src="/Media/Home_Page_Image-2.webp" alt="nack_image" loading="lazy">
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-12 promotext2 orderSecond">
+                        <h6>WHEY PROTEIN</h6>
+                        <h2>Developed By Sports Nutrition Experts</h2>
+                        <p class="dd">Näcks Whey Protein is expertly formulated to fuel your workouts, boost muscle
+                            growth, enhance recovery and support weight management.</p>
+                        <div class="btn btnnack"
+                            onclick="window.location='/products/whey-protein-chocolate-with-pink-himalayan-salt';">
+                            <a class="btnMain btnMobileCenter"
+                                href="/products/whey-protein-chocolate-with-pink-himalayan-salt">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="shopify-section-template" class="shopify-section spaced-section">
+        <section class="nack_section_two whitebgc ">
+            <div class="container page-width ">
+                <div class="grid-container image_position_right nack_section_two_columns_setter nogapifmobile"
+                    style="gap:10%;">
+                    <div class="text-section content_alignment_left mobile_content_alignment_none content_padding_inner whitebgc "
+                        style="background-color:#f2efec;padding:15% 15%;justify-content:center;">
+                        <div class="fullwidthonmobile" style="max-width:360px;">
+                            <h6 class="pre-heading">plant protein powder</h6>
+                            <h2 class="section-heading">perfectly Balanced Amino Acids</h2>
+                            <div class="content_wrapper">
+                                <p>Our 100% plant based powder is formulated to fuel your body with pure protein. By
+                                    blending naturally sourced yellow peas with whole grain rice, this formula provides
+                                    a complete essential amino acid profile.</p>
+                            </div>
+                            <div class="btn-wrapper">
+                                <a class="btn-nack" href="/products/plant-protein-powder-500g-unflavoured">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="image-section image_padding_inner" style="height:100%">
+                        <!-- :height: section.settings.section_two_image_height -->
+                        <img src="/Media/Nack_campaign_20220751_x730.webp" alt="730" loading="lazy" width="auto"
+                            height="auto">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </section>
+    <section class="section2">
+        <div class="container">
+            <div class="row yCenter xCenter">
+                <div class="col-xl-7 col-md-6 col-sm-6 col-12">
+                    <img src="/Media/nack-astaxanthin-antioxidant-immunity-boost-1-min_410x.webp" alt="nack_image"
+                        loading="lazy">
+                </div>
+                <div class="col-md-5 col-sm-6 col-12 promotext2 orderSecond">
+                    <h6>immunity boost</h6>
+                    <h2>Nature's Strongest Antioxidant</h2>
+                    <p class="dd">Boost your immune system with natures most powerful antioxidant, Astaxanthin. Its
+                        unique and strong cellular protection capacity allows it to protect each cell against free
+                        radicals and oxidative stress.</p>
+                    <div class="btn btnnack" onclick="window.location='/products/natural-astaxanthin-4-mg';">
+                        <a class="btnMain btnMobileCenter" href="/products/natural-astaxanthin-4-mg">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nack_section_two whitebgc " style="background-color:#f9f6ef;">
+        <div class="container page-width ">
+            <div class="grid-container image_position_right nack_section_two_columns_setter nogapifmobile"
+                style="gap:0%;">
+                <div class="text-section content_alignment_left mobile_content_alignment_none content_padding_inner whitebgc "
+                    style="padding:10% 10%;justify-content:center;">
+                    <div class="fullwidthonmobile" style="max-width:740px;">
+                        <h6 class="pre-heading">HEALTH COACHES</h6>
+                        <h2 class="section-heading">Meet Our Experts</h2>
+                        <div class="content_wrapper">
+                            <p>Searching for an expert within nutrition, fitness or mental health? Look no further. Our
+                                best in class experts are just one click away and ready to support you from the comfort
+                                of your home.</p>
+                        </div>
+                        <div class="btn-wrapper">
+                            <a class="btn-nack" href="/pages/talk-to-our-experts">read more</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="image-section image_padding_inner" style="height:100%">
+                    <!-- :height: section.settings.section_two_image_height -->
+                    <img src="/Media/meet-our-health-experts-at-nack-india_x600.webp" alt="600" loading="lazy"
+                        width="auto" height="auto">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="nack_section_two whitebgc mobile_bg_for_template" style="background-color:#ffffff;">
+        <div class="container">
+            <div class="grid-container image_position_left text_only nack_section_two_columns_setter nogapifmobile"
+                style="gap:10%;">
+                <div class="text-section content_alignment_left mobile_content_alignment_left content_padding_inner whitebgc mobile_bg_for_template--16705227751660__3dba78da-a89b-4409-8f5c-7c9dc272841e"
+                    style="padding:5% 4%;justify-content:left;">
+                    <div class="fullwidthonmobile" style="max-width:740px;">
+                        <h6 class="pre-heading"></h6>
+                        <h2 class="section-heading">The Pursuit Of Truly Naked</h2>
+                        <div class="content_wrapper">
+                            <p>No odd ingredient combinations. No questionable scientific reports. No false claims or
+                                hidden agendas. Just carefully selected natural active ingredients, always backed by
+                                science. Born in Sweden and raised in India, our journey started in 2020 with the
+                                purpose to make the complex world of supplements easy to understand, access and benefit
+                                from.</p>
+                        </div>
+                        <a href="/pages/naked-philosophy" class="nack-link">LEARN MORE ABOUT OUR PURSUIT</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
